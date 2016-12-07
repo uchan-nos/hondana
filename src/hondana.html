@@ -1,0 +1,130 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>本の返却場所</title>
+<style type="text/css">
+body {
+    font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ","Meiryo","MS PGothic", "ＭＳ Ｐゴシック", sans-serif;
+    background: url(/home/pi/workspace/librarypi/hondana.png) repeat;
+}
+h1 {
+    font-size: 26px;
+    color: #6f512b;
+    text-align: center;
+}
+table.bookshelf {
+    table-layout: fixed;
+    width: 100%;
+    margin: 0 auto;
+    border-spacing: 0px;
+    border-right: #8e7c66 1px solid;
+    border-bottom: #8e7c66 1px solid;
+    outline: #6f512b 1px solid;
+}
+table.bookshelf td {
+    height: 80px;
+    padding: 12px;
+    text-align: center;
+    border-top: #9d866e 2px solid;
+    border-left: #9d866e 2px solid;
+    border-right: #6f512b 1px solid;
+    border-bottom: #6f512b 1px solid;
+}
+.enjoy {
+    color: #cb8935;
+}
+.no_category {
+    color: #b38346;
+}
+#here {
+    color: #bc0000;
+    background-color: rgba(228, 75, 85, 0.2);
+}
+.{{genre}} {
+    background-color: rgba(155, 255, 0, 0.2);
+}
+</style>
+</head>
+<body>
+  <table class="bookshelf">
+    <tr>
+      <td class="enjoy">COMIC</td>
+      <td class="enjoy">COMIC</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="enjoy">COMIC</td>
+      <td class="enjoy">COMIC</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="enjoy">GAME</td>
+    </tr>
+    <tr>
+      <td class="management">経営</td>
+      <td class="management">経営</td>
+      <td class="no_category">追加希望本</td>
+      <td class="specification">仕様</td>
+      <td class="windows">Windows</td>
+      <td class="windows">Windows</td>
+      <td class="no_category">不要本</td>
+      <td></td>
+      <td class="enjoy">GAME</td>
+    </tr>
+    <tr>
+      <td class="tech_book">技術書</td>
+      <td class="tech_book">技術書</td>
+      <td class="mobile">Mobile</td>
+      <td class="javascript">Javascript</td>
+      <td class="php">PHP</td>
+      <td></td>
+      <td class="web">Web技術</td>
+      <td class="algorithm design">アルゴリズム<br>設計</td>
+      <td class="coding">コーディング</td>
+    </tr>
+    <tr>
+      <td class="project">プロジェクト</td>
+      <td class="project">プロジェクト</td>
+      <td class="java">Java</td>
+      <td class="ui">UI</td>
+      <td class="ui">UI</td>
+      <td id="here">You are<br>HERE!</td>
+      <td class="pg">PG</td>
+      <td class="low_layer">低レイヤ</td>
+      <td class="language">言語</td>
+    </tr>
+    <tr>
+      <td class="others">その他読物</td>
+      <td class="others">その他読物</td>
+      <td class="doc">Doc</td>
+      <td class="db">DB</td>
+      <td class="db">DB</td>
+      <td></td>
+      <td class="test">テスト</td>
+      <td class="test">テスト/CI</td>
+      <td class="c_cpp">C/C++</td>
+    </tr>
+    <tr id="bookshelf_bottom">
+      <td class="others">その他読物</td>
+      <td class="others">その他読物</td>
+      <td class="donation">寄贈本</td>
+      <td class="donation">寄贈本</td>
+      <td class="magazine">雑誌</td>
+      <td class="magazine">雑誌</td>
+      <td class="magazine">雑誌</td>
+      <td class="magazine">雑誌</td>
+      <td class="magazine dictionary">雑誌<br>辞典など</td>
+    </tr>
+  </table>
+  <h1>本の返却は<span style="color:#008000;">緑</span>の棚へ！</h1>
+</body>
+</html>
