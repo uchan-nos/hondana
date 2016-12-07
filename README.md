@@ -1,4 +1,4 @@
-# 図書管理システム bookman
+# 図書管理システム hondana
 
 kintone と Raspberry Pi を用いた図書管理システムです。
 
