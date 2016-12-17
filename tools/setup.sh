@@ -1,4 +1,4 @@
 #!/bin/sh
 
-mkdir /run/librarypi
-chown pi:pi /run/librarypi
+mkdir /run/hondana
+chown pi:pi /run/hondana
